@@ -10,6 +10,6 @@ website analytics tool
 /build: The place where your built files will go. Usually split into two directories, Debug and Release, it can contain binaries, .DLLs and any compiled files. It may also contain build scripts, like makefiles, but they should generally be in the root.  
 7. /test: Contains unit tests... no, in fact, all tests!  
 
-# Basic rules:
+# Basic rules
 1. push no more than 100 lines per time 
 2. pull request is required for each push
