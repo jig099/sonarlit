@@ -34,6 +34,10 @@ Unit Tests Harness
 End-To-End / Integration test harness
 Is there an easy way to fire off the pipeline/ is there a local version of the pipeline?
 
+# Testing
+Are coders writing tests?
+Is the testing team writing tests independent of the coders as well?
+
 # External documentations
 A website that communicates/advertises Sonarlit(url:...)
 
