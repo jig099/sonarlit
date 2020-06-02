@@ -15,8 +15,12 @@ website analytics tool
 1. Push no more than 100 lines to master branch every time (https://google.github.io/eng-practices/review/developer/small-cls.html)
 2. Pull request is required for each push - code review guide(https://google.github.io/eng-practices/review/reviewer/)
 3. Make sure to pull master branch at least once a day/before adding new codes
-
-
+4. Make sure that the commit lines meets the following requirements:
+  a. First line
+    Short summary of what is being done.
+    Complete sentence, written as though it was an order.
+    Follow by empty line.
+  b. 
 # External documentations
 A website that communicates/advertises Sonarlit(url:...)
 
