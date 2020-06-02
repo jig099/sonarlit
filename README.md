@@ -16,11 +16,11 @@ website analytics tool
 2. Pull request is required for each push - code review guide(https://google.github.io/eng-practices/review/reviewer/)
 3. Make sure to pull master branch at least once a day/before adding new codes
 4. Make sure that the commit lines meets the following requirements:
-   First line:
+   1. First line:
     1.Short summary of what is being done.
     2.Complete sentence, written as though it was an order.
       Follow by empty line.
-   Body: 
+   2. Body: 
     1. How the problem is solved
     2. pros/cons of the approach
     
