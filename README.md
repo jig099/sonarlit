@@ -1,5 +1,6 @@
-# sonarlit
+# Sonarlit
 website analytics tool 
+
 # Github Structure
 1. The Root: The root should be reserved for configuration files, documentation (such as README.md and others). Also, it can contain VS solution files and git files.  
 2. /src: We all know this one. This is where all source files are placed. However, in languages that use headers (or if you have a framework for your application) don't put those files in here.  
@@ -11,5 +12,12 @@ website analytics tool
 7. /test: Contains unit tests... no, in fact, all tests!  
 
 # Basic rules
-1. push no more than 100 lines per time 
-2. pull request is required for each push
+1. Push no more than 100 lines to master branch every time (https://google.github.io/eng-practices/review/developer/small-cls.html)
+2. Pull request is required for each push - code review guide(https://google.github.io/eng-practices/review/reviewer/)
+3. Make sure to pull master branch at least once a day/before adding new codes
+
+
+# External documentations
+A website that communicates/advertises Sonarlit(url:...)
+
+# Internal documentations
