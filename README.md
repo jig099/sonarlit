@@ -33,6 +33,7 @@ Does our pipeline have these bare minimum steps?
       1. Jslint - check JS quality
       2. HTML, CSS validator
 4. Unit Tests Harness
+      1. spectron testing framework
 5. End-To-End / Integration test harness
 Is there an easy way to fire off the pipeline/ is there a local version of the pipeline?
 
