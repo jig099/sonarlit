@@ -34,6 +34,26 @@ Unit Tests Harness
 End-To-End / Integration test harness
 Is there an easy way to fire off the pipeline/ is there a local version of the pipeline?
 
+## Linter / Style Guide Enforcer
+
+### Definition 
+
+> Lint, or a linter, is a tool that analyzes source code to flag programming errors, buys, stylistic errors, and suspicious constructs
+[https://en.wikipedia.org/wiki/Lint_(software)]
+
+Think of it as the grammarly of coding, or the familar red squiggly line in your code that drives you crazy.  
+
+### Functionalities
+
+1. Static Analysis - Run through your source code without actually executing them
+2. Code Standardizing - Enforce a particular style guide
+3. Security Issues - Find potential security issues
+
+### How to Use
+
+You can configure TONS of rules for your team's liking. A catalog of rules is listed here[https://eslint.org/docs/rules/]. 
+
+
 # Testing
 Are coders writing tests?
 Is the testing team writing tests independent of the coders as well?
