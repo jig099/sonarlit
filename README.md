@@ -51,7 +51,15 @@ Think of it as the grammarly of coding, or the familar red squiggly line in your
 
 ### How to Use
 
-You can configure TONS of rules for your team's liking. A catalog of rules is listed here[https://eslint.org/docs/rules/]. 
+For Javascript/Typescript, we will use ESlint.  
+
+ESLint configuration file has already been set up. So user would only need to install the packages required by running the following in the terminal.  
+
+```
+npm i -D eslint eslint-plugin-node eslint-config-node
+```
+
+Later on we can adjust the rules enforced by ESlint by modifying the *eslintrc.json*. The catalog of rules can be found here[https://eslint.org/docs/rules/]
 
 
 # Testing
