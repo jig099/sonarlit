@@ -27,11 +27,11 @@ website analytics tool
 # Pipeline
 Do we have a working pipeline? i.e. on every pull request, is the pipeline running?
 Does our pipeline have these bare minimum steps?
-   Linter / Style Guide enforcer
-   Test Coverage checker (eg. CodeClimate)
-   Code Quality checker (eg. GoReport)
-   Unit Tests Harness
-End-To-End / Integration test harness
+1. Linter / Style Guide enforcer
+2. Test Coverage checker (eg. CodeClimate)
+3. Code Quality checker (eg. GoReport)
+4. Unit Tests Harness
+5. End-To-End / Integration test harness
 Is there an easy way to fire off the pipeline/ is there a local version of the pipeline?
 
 # Testing
