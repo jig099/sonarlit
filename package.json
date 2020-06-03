@@ -1,0 +1,28 @@
+{
+  "name": "sonarlit",
+  "version": "1.0.0",
+  "description": "website analytics tool",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jig099/sonarlit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jig099/sonarlit/issues"
+  },
+  "homepage": "https://github.com/jig099/sonarlit#readme"
+}
