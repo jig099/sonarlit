@@ -29,7 +29,9 @@ Do we have a working pipeline? i.e. on every pull request, is the pipeline runni
 Does our pipeline have these bare minimum steps?
 1. Linter / Style Guide enforcer
 2. Test Coverage checker (eg. CodeClimate)
-3. Code Quality checker (eg. GoReport)
+3. Code Quality checker
+      1. Jslint - check JS quality
+      2. HTML, CSS validator
 4. Unit Tests Harness
 5. End-To-End / Integration test harness
 Is there an easy way to fire off the pipeline/ is there a local version of the pipeline?
