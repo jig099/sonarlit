@@ -61,6 +61,18 @@ npm i -D eslint eslint-plugin-node eslint-config-node
 
 Later on we can adjust the rules enforced by ESlint by modifying the *eslintrc.json*. The catalog of rules can be found here[https://eslint.org/docs/rules/]
 
+## Test Coverage Checker
+
+### Definition
+
+> Code coverage is a measurementof how many lines/blocks/arcs of your code are executed while the automated tests are running.
+[https://stackoverflow.com/questions/195008/what-is-code-coverage-and-how-do-you-measure-it]
+
+Note: This metric could varie based on different test suite running. Test suites coming from diverse source (coder vs tester) are highly recommended. 
+
+### How to run a coverage checker?
+
+If only unit tests are executed, we could use *Code Coverage* extention in the VS Code. However, testing for Sonarlit is more challenging. 
 
 # Testing
 Are coders writing tests?
