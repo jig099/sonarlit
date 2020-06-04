@@ -37,6 +37,46 @@ Does our pipeline have these bare minimum steps?
 5. End-To-End / Integration test harness
 Is there an easy way to fire off the pipeline/ is there a local version of the pipeline?
 
+## Linter / Style Guide Enforcer
+
+### Definition 
+
+> Lint, or a linter, is a tool that analyzes source code to flag programming errors, buys, stylistic errors, and suspicious constructs
+[https://en.wikipedia.org/wiki/Lint_(software)]
+
+Think of it as the grammarly of coding, or the familar red squiggly line in your code that drives you crazy.  
+
+### Functionalities
+
+1. Static Analysis - Run through your source code without actually executing them
+2. Code Standardizing - Enforce a particular style guide
+3. Security Issues - Find potential security issues
+
+### How to Use
+
+For Javascript/Typescript, we will use ESlint.  
+
+ESLint configuration file has already been set up. So user would only need to install the packages required by running the following in the terminal.  
+
+```
+npm i -D eslint eslint-plugin-node eslint-config-node
+```
+
+Later on we can adjust the rules enforced by ESlint by modifying the *eslintrc.json*. The catalog of rules can be found here[https://eslint.org/docs/rules/]
+
+## Test Coverage Checker
+
+### Definition
+
+> Code coverage is a measurementof how many lines/blocks/arcs of your code are executed while the automated tests are running.
+[https://stackoverflow.com/questions/195008/what-is-code-coverage-and-how-do-you-measure-it]
+
+Note: This metric could varie based on different test suite running. Test suites coming from diverse source (coder vs tester) are highly recommended. 
+
+### How to run a coverage checker?
+
+If only unit tests are executed, we could use *Code Coverage* extention in the VS Code. However, testing for Sonarlit is more challenging. 
+
 # Testing
 Are coders writing tests?
 Is the testing team writing tests independent of the coders as well?
