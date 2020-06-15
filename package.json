@@ -11,7 +11,8 @@
     "eslint-plugin-node": "^11.1.0",
     "prettier": "^2.0.5"
   },
-  "devDependencies": {"electron": "^9.0.3"
+  "devDependencies": {
+    "electron": "^9.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
