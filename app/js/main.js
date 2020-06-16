@@ -13,7 +13,7 @@ function createWindow () {
   win.setResizable(false);
 
   // and load the index.html of the app.
-  win.loadFile('./app/html/login.html')
+  win.loadFile('./app/html/welcome.html')
 
   // Open the DevTools.
   win.webContents.openDevTools()
