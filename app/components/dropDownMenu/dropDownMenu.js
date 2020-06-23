@@ -10,4 +10,4 @@ class dropDownMenu extends HTMLElement {
     }
 }
 // Define the new element
-customElements.define('dropDownMenu', dropDownMenu);
+customElements.define('drop-down-menu', dropDownMenu);
