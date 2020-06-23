@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="./dropDownMenu.js"></script>
+  	</head>
+  	<body>
+		<template id="dropDownTemplate">
+			<style>
+				#options{
+					position: relative;
+					font-family: Arial;
+					background: green;
+				}
+			</style>
+			<div id="dropDownDiv">
+				<label><slot name="dropDownTopic"></slot></label>
+				<select id="options"></select>
+            </div>
+		</template>
+		<dropDownMenu>
+			<label slot ="dropDownTopic">Use Example</label>
+			<select slot="options">
+				<option>option1</option>
+				<option>option2</option>
+			</select>
+		</dropDownMenu>
+  	</body>
+</html>
