@@ -9,7 +9,7 @@
 	<template id="dropDownTemplate">
 		<style>
 			.dropbtn {
-				background-color: #4CAF50;
+				background-color: #05658D;
 				color: white;
 				padding: 16px;
 				font-size: 16px;
@@ -19,11 +19,10 @@
 				position: relative;
   				display: inline-block;
 			}
-
 			.dropDownContent{
 				display: none;
 				position: absolute;
-				background-color: #f1f1f1;
+				background-color: #02C39A;
 				min-width: 160px;
 				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 				z-index: 1;
@@ -34,28 +33,33 @@
 				text-decoration: none;
 				display: block;
 			}
+
 			/* Change color of dropdown links on hover */
-			.dropDownContent p:hover {background-color: #273829;}
+			.dropDownContent div:hover {background-color:#00A896;}
 
 			/* Show the dropdown menu on hover */
 			.dropDownContainer:hover .dropDownContent{display: block;}
 
 			/* Change the background color of the dropdown button when the dropdown content is shown */
-			.dropDownContainer:hover .dropbtn {background-color: #3e8e41;}
+			.dropDownContainer:hover .dropbtn {background-color: #028090;}
+			
 
 		</style>
 		<div class="dropDownContainer">
 			<button class="dropbtn">Dropdown</button>
 			<div class="dropDownContent">
-				<slot name="ddFill"></slot>
+				<div><slot name="option1"></slot></div>
+				<div><slot name="option2"></slot></div>
+				<div><slot name="option3"></slot></div>
+				<div><slot name="option4"></slot></div>
 			</div>
 		</div>
 	</template>
 	<drop-down-menu>
-		<div slot="ddFill">
-			<p>op1</p>
-			<p>op2</p>
-		</div>
+		<p slot="option1">op1</p>
+		<p slot="option2">op2</p>
+		<p slot="option3">op3</p>
+		<p slot="option4">op4</p>
 	</drop-down-menu>
 </body>
 
