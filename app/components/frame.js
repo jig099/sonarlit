@@ -1,6 +1,5 @@
-let tmpl = document.createElement('div');
-tmpl.innerHTML = `
-
+let tmpl= `
+<template id='mainTmpl'>
  <style>
         #level1Container{
             display:flex;
@@ -81,24 +80,28 @@ tmpl.innerHTML = `
             </div>
         </div>
         <div id="mainArea">
-
+            <slot name="mainArea">
+            </slot>
         </div>
 
     </div>
-
+</template>
 `;
 
 class MainFrame extends HTMLElement{
+    constructor(){
+        super();
+        this.insertAdjacentHTML('beforeend', tmpl);
+        let template = document.getElementById('mainTmpl');
+        let templateContent = template.content;
+
+        const shadowRoot = this.attachShadow({mode:'open'})
+            .appendChild(templateContent.cloneNode(true));
+    }
     set mainArea(val){
         // use this method to update the content of the main area by doing frame.mainArea = (HTML code in string)
         let mainArea_el = this.querySelector('#mainArea');
         mainArea_el.innerHTML = val;
     }
-
-    connectedCallback(){
-        // this.appendChild(tmpl.content);
-        this.insertAdjacentElement('beforeend', tmpl);
-    }
-
 }
 customElements.define('main-frame', MainFrame);
