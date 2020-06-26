@@ -2,7 +2,7 @@
   "name": "sonarlit",
   "version": "1.0.0",
   "description": "Web Analytic System",
-  "main": "index.js",
+  "main": "./app/js/main.js",
   "dependencies": {
     "eslint": "^7.1.0",
     "eslint-config-prettier": "^6.11.0",
@@ -11,9 +11,12 @@
     "eslint-plugin-node": "^11.1.0",
     "prettier": "^2.0.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^9.0.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
