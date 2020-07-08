@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron');
 
 function createWindow () {
   // Create the browser window.
@@ -14,7 +14,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadFile('./app/html/welcome.html')
-
+  //win.loadURL('https://www.google.com/')
   // Open the DevTools.
   win.webContents.openDevTools()
 }
@@ -43,3 +43,4 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+// export the window 
