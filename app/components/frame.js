@@ -105,7 +105,3 @@ class MainFrame extends HTMLElement{
     }
 }
 customElements.define('main-frame', MainFrame);
-<<<<<<< HEAD
-=======
-
->>>>>>> 4f9384f0ed272f1b5853aa6a0359f4ef0ff9e8f4

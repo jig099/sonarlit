@@ -30,29 +30,43 @@
             display:flex
         }
 
+        #dpd_ctnr{
+            width:100%;
+        }
+
+        #mainArea{
+            display:flex;
+            flex-direction:column;
+        }
+
     </style>
 </head>
 <body>
     <script type="module" src="../components/frame.js"> </script>
+    <script type="module" src="../components/graphArea.js"></script>
     <main-frame>
         <div slot="mainArea" id="mainArea" name="mainAreaContainer">
             
-            <select id='website_dpd'>
-                <option>www.google.com</option>
-                <option>www.yahoo.com</option>
-                <option>developer.mozilla.com</option>
-            </select>
-            <select id="graph_group_dpd">
-                <option>Geolocation Analytics</option>
-                <option>Website Traffic Analytics</option>
-            </select>
+            <div id="dpd_ctnr">
+                <select id='website_dpd'>
+                    <option>www.google.com</option>
+                    <option>www.yahoo.com</option>
+                    <option>developer.mozilla.com</option>
+                </select>
+                <select id="graph_group_dpd">
+                    <option>Geolocation Analytics</option>
+                    <option>Website Traffic Analytics</option>
+                </select>
+            </div>
             <div id="visitor_amt">
                 194 visitors
             </div>
-            <div id="graph_area">
-                <img src="../asset/pic/barplot_mockup.png">
-                <img src="../asset/pic/pie_plot_mockup.png"
-            </div>
+            <graph-area>
+                <img slot="graphArea" src="../asset/pic/barplot_mockup.png">
+                <img slot="graphArea" src="../asset/pic/pie_plot_mockup.png">
+                <img slot="graphArea" src="../asset/pic/pie_plot_mockup.png">
+                <img slot="graphArea" src="../asset/pic/pie_plot_mockup.png">
+            </graph-area>
         </div>
     </main-frame>
 

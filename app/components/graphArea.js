@@ -7,7 +7,9 @@ To use this component, first call
 
 to import this file into the html file, then inject all images wanted to show on the page, specify the slot attribute like the following:
 
-    <img src="..." slot="graphArea">
+    <graph-area>
+        <img src="..." slot="graphArea">
+    </graph-area>
 */
 let tmpl= `
 <template id='mainTmpl'>
