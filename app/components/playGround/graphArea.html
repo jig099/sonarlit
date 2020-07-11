@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../graphArea.js"> </script>
+    <title>Document</title>
+</head>
+<body>
+
+    <graph-area>
+        <img slot="graphArea" src="../../asset/pic/powell.jpg">
+        <img slot="graphArea" src="../../asset/pic/powell.jpg">
+        <img slot="graphArea" src="../../asset/pic/powell.jpg">
+        <img slot="graphArea" src="../../asset/pic/powell.jpg">
+    </graph-area>
+      
+    <script>
+        let graph_el = document.querySelector('graph-area');
+        console.log(graph_el);
+        graph_el.colCnt = 5;
+    </script>
+
+</body>
+</html>
