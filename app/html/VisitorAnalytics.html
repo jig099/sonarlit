@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Frame</title>
+    <style>
+        #mainArea{
+            display:grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows:20px 20px 0.3fr 1fr
+
+        }
+        #website_dpd{
+            grid-column: 3 / 5;
+            grid-row:2 / 3;
+
+        }
+        #graph_group_dpd{
+            grid-column: 6 / 8;
+            grid-row:2 / 3;
+        }
+        #visitor_amt{
+            grid-column: 10 / 11;
+            grid-row:2 / 3;
+        }
+        #graph_area{
+            grid-column:2 / 9;
+            grid-row-start:4;
+            display:flex
+        }
+
+    </style>
+</head>
+<body>
+    <script type="module" src="../components/frame.js"> </script>
+    <main-frame>
+        <div slot="mainArea" id="mainArea" name="mainAreaContainer">
+            
+            <select id='website_dpd'>
+                <option>www.google.com</option>
+                <option>www.yahoo.com</option>
+                <option>developer.mozilla.com</option>
+            </select>
+            <select id="graph_group_dpd">
+                <option>Geolocation Analytics</option>
+                <option>Website Traffic Analytics</option>
+            </select>
+            <div id="visitor_amt">
+                194 visitors
+            </div>
+            <div id="graph_area">
+                <img src="../asset/pic/barplot_mockup.png">
+                <img src="../asset/pic/pie_plot_mockup.png"
+            </div>
+        </div>
+    </main-frame>
+
+    
+</body>
+</html>
