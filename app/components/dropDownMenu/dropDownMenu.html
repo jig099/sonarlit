@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="./dropDownMenu.js"></script>
+</head>
+
+<body>
+	<template id="dropDownTemplate">
+		<style>
+			.dropbtn {
+				background-color: #05658D;
+				color: white;
+				padding: 16px;
+				font-size: 16px;
+				border: none;
+			}
+			.dropDownContainer{
+				position: relative;
+  				display: inline-block;
+			}
+			.dropDownContent{
+				display: none;
+				position: absolute;
+				background-color: #02C39A;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+			.dropDownContent p{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+			}
+
+			/* Change color of dropdown links on hover */
+			.dropDownContent div:hover {background-color:#00A896;}
+
+			/* Show the dropdown menu on hover */
+			.dropDownContainer:hover .dropDownContent{display: block;}
+
+			/* Change the background color of the dropdown button when the dropdown content is shown */
+			.dropDownContainer:hover .dropbtn {background-color: #028090;}
+			
+
+		</style>
+		<div class="dropDownContainer">
+			<button class="dropbtn">Dropdown</button>
+			<div class="dropDownContent">
+				<div><slot name="option1"></slot></div>
+				<div><slot name="option2"></slot></div>
+				<div><slot name="option3"></slot></div>
+				<div><slot name="option4"></slot></div>
+			</div>
+		</div>
+	</template>
+	<drop-down-menu>
+		<p slot="option1">op1</p>
+		<p slot="option2">op2</p>
+		<p slot="option3">op3</p>
+		<p slot="option4">op4</p>
+	</drop-down-menu>
+</body>
+
+</html>
