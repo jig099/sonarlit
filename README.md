@@ -1,6 +1,14 @@
 # Sonarlit
 website analytics tool 
 
+# Ideas
+This project is paused for now. As Will and I realized there are more needed to be learnt before hurry to the coding part.
+I will record my new project ideas constantly here. 
+1. Webpack should be integrated into the project as it is a great way of building organized prod repo
+2. OOD needs to be implemented into the project since codes should not fly around but be packed as clean objects with structures
+3. ASP.NET MVC model could be considered to be used in this project
+4. Learn more design patterns and reading more quality codes are needed to further improve this project
+
 # Github Structure
 1. The Root: The root should be reserved for configuration files, documentation (such as README.md and others). Also, it can contain VS solution files and git files.  
 2. /src: We all know this one. This is where all source files are placed. However, in languages that use headers (or if you have a framework for your application) don't put those files in here.  
