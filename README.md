@@ -1,6 +1,10 @@
 # Sonarlit
 website analytics tool 
 
+# TODO 
+1. Webpack intergration
+2. ASP.NET
+
 # Ideas
 This project is paused for now. As Will and I realized there are more needed to be learnt before hurry to the coding part.
 I will record my new project ideas constantly here. 
