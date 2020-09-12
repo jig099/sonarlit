@@ -1,6 +1,7 @@
 # Sonarlit
 website analytics tool
-Thisis an ongoing project that improved upon acewebtool - www.github.com/jig099/acewebtool, a project Will and I previously worked on. 
+###
+This is an ongoing project that improved upon acewebtool - www.github.com/jig099/acewebtool, a project Will and I previously worked on. 
 
 # TODO 
 1. Pack and distribute app - finish by 10th Sep 2020
