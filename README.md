@@ -10,7 +10,7 @@ This is an ongoing project that improved upon acewebtool - www.github.com/jig099
 
 # Ideas
 This project is making progress slowly. As Will and I realized there are more needed to be learnt before hurry to the coding part. 
-Otherwise we will be simply doing what had done before in Web development class. 
+Otherwise we will be simply doing what had done before for acewebtool
 We will record our project ideas constantly here. 
 1. Do more research on pack and distribute electron apps
 2. OOD needs to be implemented into the project since codes should not fly around but be packed as clean objects with structures
