@@ -5,7 +5,7 @@ This is an ongoing project that improved upon acewebtool - www.github.com/jig099
 
 # TODO 
 1. Pack and distribute app - finish by 10th Sep 2020
-2. ASP.NET - creates endpoint for interacting with the database 
+2. ASP.NET - creates endpoint for interacting with the database?
 
 
 # Ideas
